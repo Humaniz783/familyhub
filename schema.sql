@@ -1,0 +1,11 @@
+CREATE TABLE shopping_list (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    item VARCHAR(255) NOT NULL,
+    checked TINYINT(1) DEFAULT 0
+);
+
+CREATE TABLE tasks (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    task VARCHAR(255) NOT NULL,
+    completed TINYINT(1) DEFAULT 0
+);
